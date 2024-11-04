@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "אביב אתר אינסלציה",
-    "currentPage": "page1.html",
+    "currentPage": "page2.html",
     "theme": {
       "name": "startm5",
       "title": "StartM5",
@@ -55,9 +55,24 @@
     ],
     "uniqCompNum": 22,
     "versionPublish": "5.9.18",
-    "chatbutton": {},
+    "chatbutton": {
+      "phone": "+972535303949",
+      "message": "",
+      "size": "65px",
+      "backgroundColor": "#e5ddd5",
+      "position": "left",
+      "popupMessage": "הי אביב מרפאלוס אינסטלציה👋\n\nמוזמנים לשאול הכול אצלנו המחירים הכי חמים זולים והתמורה הכי משתלמת שיש 🔥\n\nכאן בשבילכם",
+      "showPopup": true,
+      "showOnIE": true,
+      "autoOpenTimeout": "5",
+      "headerColor": "#39847a",
+      "headerTitle": "👋 דברו איתנו בווצאפ",
+      "placeholder": "כתוב/י כאן",
+      "zIndex": 10,
+      "enabled": true
+    },
     "favicon": false,
-    "mbrsiteDomain": "ijcwekn2n6",
+    "mbrsiteDomain": "ydwg530vbu",
     "imageResize": false,
     "usedWebp": false,
     "cssOptimize": true,
