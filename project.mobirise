@@ -1,7 +1,7 @@
 {
   "settings": {
-    "name": "אביב אתר אינסלציה",
-    "currentPage": "page2.html",
+    "name": "רפאלוס אינסטלציה",
+    "currentPage": "page1.html",
     "theme": {
       "name": "startm5",
       "title": "StartM5",
@@ -72,7 +72,7 @@
       "enabled": true
     },
     "favicon": false,
-    "mbrsiteDomain": "mj92muvwnt",
+    "mbrsiteDomain": "yz11nbqdi8",
     "imageResize": false,
     "usedWebp": false,
     "cssOptimize": true,
@@ -82,14 +82,14 @@
     "sitemapSwitcherAuto": "on",
     "siteUrl": false,
     "cookiesAlert": false,
-    "gdpr": false,
     "pwa-switcher": false,
     "mcSmartCart": {
       "currency": "USD"
     },
     "screenshot": "screenshot.png",
     "publishChangesOnly": true,
-    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n"
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
+    "gdpr": false
   },
   "pages": {
     "index.html": {
