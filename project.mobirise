@@ -72,7 +72,7 @@
       "enabled": true
     },
     "favicon": false,
-    "mbrsiteDomain": "i05zptdj3k",
+    "mbrsiteDomain": "ouyl4tyq8k",
     "imageResize": false,
     "usedWebp": false,
     "cssOptimize": true,
@@ -89,9 +89,9 @@
       "rejectColor": "#ffffff",
       "colorLink": "#078efb",
       "underlineLink": true,
-      "opacityOverlay": "0",
+      "opacityOverlay": "100",
       "bgOpacity": "100",
-      "text": "האתר משתמש בקבצי עוגיות לצורך שיפור חווית הגלישה ולניתוח תנועה באתר. בלחיצה על 'אישור', אתה מסכים לשימוש בעוגיות.\nלמידע נוסף עיין ב־<a href='privacy.html'>מדיניות הפרטיות</a> וב־<a href='usingtheweb.html'>תנאי שימוש</a>.",
+      "text": "Cookies אנו משתמשים בקובצי \n על מנת להעניק לך את חוויית הגלישה הטובה ביותר, בהתאם ל<a href=\"privacy.html\">מדיניות הפרטיות</a> ול<a href=\"usingtheweb.html\">תנאי השימוש</a>.\n",
       "textButton": "מאשר",
       "rejectText": "REJECT"
     },
@@ -103,7 +103,8 @@
     "publishChangesOnly": true,
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
     "gdpr": false,
-    "google-analytics": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-9QML8R4Z5D\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-9QML8R4Z5D');\n</script>"
+    "google-analytics": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-9QML8R4Z5D\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-9QML8R4Z5D');\n</script>",
+    "cookiesAlertType": "3"
   },
   "pages": {
     "index.html": {
@@ -3624,11 +3625,11 @@
             }
           },
           "_cid": "usCKa6T4Zo",
+          "_anchor": "menu01-p",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "menu01-p"
+          "_params": {}
         },
         {
           "alias": false,
@@ -3688,11 +3689,11 @@
           "_sourceTheme": "startm5",
           "_customHTML": "<section data-bs-version=\"5.1\" class=\"header16\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n'mbr-parallax-background': bg.parallax}\">\n  <mbr-parameters>\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"24\" step=\"1\" value=\"20\" condition=\"fullScreen == false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"12\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n    <input type=\"range\" inline title=\"Content Width\" name=\"contentWidth\" min=\"3\" max=\"12\" step=\"1\" value=\"12\">\n    <header>Show / Hide</header>\n    <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n    <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n    <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n    <select title=\"Vertical Align\" name=\"verticalAlign\" condition=\"fullScreen\">\n      <option value=\"flex-start\">Top</option>\n      <option value=\"center\" selected>Center</option>\n      <option value=\"flex-end\">Bottom</option>\n    </select>\n    <select title=\"Horizontal Align\" name=\"horizontalAlign\">\n      <option value=\"flex-start\">Left</option>\n      <option value=\"center\" selected>Center</option>\n      <option value=\"flex-end\">Right</option>\n    </select>\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Image\" value=\"../_images/background17.jpg\" parallax>\n      <input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=2Gg6Seob5Mg\">\n      <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n    </fieldset>\n    <header condition=\"bg.type === 'video'\">Fallback Image</header>\n    <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type!='color'\">\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"bg.type!='color' && overlay\">\n    <input type=\"range\" inline title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"bg.type!='color' && overlay\">\n  </mbr-parameters>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n  <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row\">\n      <div class=\"content-wrap col-12 col-md-{{contentWidth}}\">\n        <h1 class=\"mbr-section-title mbr-fonts-style mbr-white mb-4\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">תנאי שימוש – רפאלוס אינסטלציה</h1>\n        <h2 class=\"mbr-section-subtitle mbr-fonts-style mbr-white mb-4\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubtitle\">\n          Header Subtitle\n        </h2>\n        <p class=\"mbr-fonts-style mbr-text mbr-white mb-4\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><br>תאריך עדכון אחרון:20/08/2025<br>!ברוכים הבאים לאתר רפאלוס אינסטלציה<br>.על ידי שימוש באתר זה, אתם מסכימים לתנאי השימוש הבאים. אם אינכם מסכימים לתנאים אלו – נא לא להשתמש באתר<br><br>1. בעל האתר<br>האתר שייך לעסק: רפאלוס אינסטלציה<br>טלפון ליצירת קשר: 053-5303949<br><br>2. מטרת האתר<br>האתר מהווה אתר תדמית המפרסם את שירותי העסק בתחום האינסטלציה. האתר אינו מספק שירותים דיגיטליים, מכירה או הזמנה אונליין, אלא מציג מידע על השירותים, פרטי יצירת קשר ותמונות.<br><br>3. שימוש באתר<br>השימוש באתר מותר לצרכים אישיים בלבד<br>אין להעתיק, לשכפל, להפיץ או להשתמש בתוכן האתר למטרות מסחריות ללא אישור מפורש מבעל האתר<br>אסור לבצע שימוש באתר בדרך הפוגעת בזכויות האתר או בזכויות צדדים שלישיים<br><br>4. תוכן האתר<br><br>האתר עשוי לכלול תמונות, טקסטים וגרפיקה הקשורים לשירותי העסק<br>כל הזכויות על התוכן שייכות לרפאלוס אינסטלציה או למי שהוענק לו רישיון<br>אין להעתיק או להשתמש בתוכן ללא אישור בכתב<br><br>5. אחריות<br>האתר נועד למידע בלבד.<br>רפאלוס אינסטלציה לא אחראי לנזקים ישירים או עקיפים הנובעים משימוש באתר או מהתוכן שבו.<br>פרטי יצירת הקשר באתר עדכניים במידת האפשר, אך לא ניתן להבטיח דיוק מלא בכל עת.<br><br>6. מדיניות פרטיות<br>האתר מפנה למדיניות הפרטיות הקיימת באתר ומחייב את המשתמשים לעיין בה.<br>שימוש באתר מהווה הסכמה למדיניות הפרטיות.<br><br>7. שינויים בתנאי השימוש<br>רפאלוס אינסטלציה שומרת לעצמה את הזכות לשנות את תנאי השימוש בכל עת.<br>שימוש מתמשך באתר מהווה הסכמה לתנאים המעודכנים.<br><br>8. דין ושיפוי<br>כל מחלוקת בין המשתמש לאתר תתברר בהתאם לחוקי מדינת ישראל<br>המשתמש מתחייב לא לתבוע את האתר בגין שימוש שאינו בהתאם לתנאי השימוש</p>\n        <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-7\"><a class=\"btn btn-white-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Learn More</a></div>\n      </div>\n    </div>\n  </div>\n</section>",
           "_cid": "uUpijGF1lf",
+          "_anchor": "header17-r",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header17-r"
+          "_params": {}
         },
         {
           "_name": "footer1",
@@ -3780,11 +3781,11 @@
             }
           },
           "_cid": "usIq1YHP6J",
+          "_anchor": "footer1-q",
           "_protectedParams": [],
           "_global": true,
           "_once": "footer",
-          "_params": {},
-          "_anchor": "footer1-q"
+          "_params": {}
         }
       ]
     }
