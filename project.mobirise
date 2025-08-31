@@ -72,7 +72,7 @@
       "enabled": true
     },
     "favicon": false,
-    "mbrsiteDomain": "ouyl4tyq8k",
+    "mbrsiteDomain": "vrvfeq8qsa",
     "imageResize": false,
     "usedWebp": false,
     "cssOptimize": true,
@@ -91,7 +91,7 @@
       "underlineLink": true,
       "opacityOverlay": "100",
       "bgOpacity": "100",
-      "text": "Cookies אנו משתמשים בקובצי \n על מנת להעניק לך את חוויית הגלישה הטובה ביותר, בהתאם ל<a href=\"privacy.html\">מדיניות הפרטיות</a> ול<a href=\"usingtheweb.html\">תנאי השימוש</a>.\n",
+      "text": "Cookies אנו משתמשים בקובצי \nעל מנת להעניק לך את חוויית הגלישה הטובה ביותר, בהתאם ל מדיניות הפרטיות ול\nתנאי השימוש",
       "textButton": "מאשר",
       "rejectText": "REJECT"
     },
