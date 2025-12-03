@@ -72,7 +72,7 @@
       "enabled": true
     },
     "favicon": false,
-    "mbrsiteDomain": "vrvfeq8qsa",
+    "mbrsiteDomain": "f356deod24",
     "imageResize": false,
     "usedWebp": false,
     "cssOptimize": true,
@@ -103,7 +103,7 @@
     "publishChangesOnly": true,
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
     "gdpr": false,
-    "google-analytics": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-9QML8R4Z5D\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-9QML8R4Z5D');\n</script>",
+    "google-analytics": "יכול להוסיף לאתר של רפאלוס את הקוד הזה\n\n\n<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=AW-17773874961\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'AW-17773874961');\n</script>",
     "cookiesAlertType": "3"
   },
   "pages": {
